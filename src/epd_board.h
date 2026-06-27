@@ -119,16 +119,18 @@ void epd_control_reg_init();
 void epd_control_reg_deinit();
 
 // Built in board definitions
-extern const EpdBoardDefinition epd_board_lilygo_t5_47;
-extern const EpdBoardDefinition epd_board_lilygo_t5_47_touch;
-extern const EpdBoardDefinition lilygo_board_s3;
-extern const EpdBoardDefinition epd_board_v2_v3;
-extern const EpdBoardDefinition epd_board_v4;
-extern const EpdBoardDefinition epd_board_v5;
-extern const EpdBoardDefinition epd_board_v6;
-extern const EpdBoardDefinition epd_board_v7;
-extern const EpdBoardDefinition epd_board_v7_raw;
-extern const EpdBoardDefinition epd_board_v7_103;  // Experimental board (not ready yet)
+extern const EpdBoardDefinition epd_board_lilygo_t5_47_plus;
+extern const EpdBoardDefinition epd_board_lilygo_t5_47_plus_touch;
+// extern const EpdBoardDefinition epd_board_lilygo_t5_47;
+// extern const EpdBoardDefinition epd_board_lilygo_t5_47_touch;
+// extern const EpdBoardDefinition lilygo_board_s3;
+// extern const EpdBoardDefinition epd_board_v2_v3;
+// extern const EpdBoardDefinition epd_board_v4;
+// extern const EpdBoardDefinition epd_board_v5;
+// extern const EpdBoardDefinition epd_board_v6;
+// extern const EpdBoardDefinition epd_board_v7;
+// extern const EpdBoardDefinition epd_board_v7_raw;
+// extern const EpdBoardDefinition epd_board_v7_103;  // Experimental board (not ready yet)
 
 /**
  * Helper for short, precise delays.
